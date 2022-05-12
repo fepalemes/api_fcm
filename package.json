@@ -1,0 +1,30 @@
+{
+  "name": "api_fcm",
+  "version": "1.0.0",
+  "description": "API REST Firebase Cloud Messaging - Push notification",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fepalemes/api_fcm.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fepalemes/api_fcm/issues"
+  },
+  "homepage": "https://github.com/fepalemes/api_fcm#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "helmet": "^5.0.2",
+    "node-datetime": "^2.1.2",
+    "nodemon": "^2.0.16",
+    "swagger-jsdoc": "^6.2.1",
+    "swagger-ui-express": "^4.3.0"
+  }
+}

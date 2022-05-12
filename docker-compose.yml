@@ -1,0 +1,16 @@
+version: '3.4'
+
+services:
+  api: ## Service name
+    build: . ## Dockerfile location
+    environment:
+            - PORT=5000  ## Exec port
+            - APPNAME=API_FCM
+            - SERVEY_KEY= ## Your FCM api key
+            - PROJECT_ID= ## Your Firebase project ID
+
+    ports:
+      - "5000:5000" ## Port redirection 
+
+    volumes:
+      - .:/usr/app
